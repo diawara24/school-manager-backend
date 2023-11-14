@@ -1,17 +1,9 @@
-jwt:
-  secret: "mourtallaFatyDiawaraCloudCampusFrance@2024"
-
-server:
-  port: 8080
-  error:
-    whitelabel:
-      enabled: false
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/schoolmanager?createDatabaseIfNotExist=true
-    password: admin@123
-    username: admin
+    password: Passer@1234
+    username: root
   jpa:
     show-sql: true
     hibernate:
@@ -19,8 +11,3 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQL8Dialect
-#  mvc:
-#    throw-exception-if-no-handler-found: true
-#  web:
-#    resources:
-#      add-mappings: false

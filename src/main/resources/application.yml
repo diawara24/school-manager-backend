@@ -1,0 +1,11 @@
+jwt:
+  secret: "mourtallaFatyDiawaraCloudCampusFrance@2024"
+
+server:
+  port: ${PORT:8080}
+  error:
+    whitelabel:
+      enabled: false
+spring:
+  profiles:
+    active: dev
