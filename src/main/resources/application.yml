@@ -8,4 +8,4 @@ server:
       enabled: false
 spring:
   profiles:
-    active: dev
+    active: prod
